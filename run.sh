@@ -83,6 +83,7 @@ rm -rf batterydata.json
 rm -rf outputdata.json
 rm -rf dcactemp.json
 rm -rf inverterinfo.json
+rm -rf flowdata.json
 
 echo "Please wait while curl is fetching input, grid, load, battery & output data..."
 curl -s -k -X GET -H "Content-Type: application/json" -H "authorization: Bearer $ServerAPIBearerToken" https://api.sunsynk.net/api/v1/inverter/$inverter_serial/realtime/input -o "pvindata.json"
