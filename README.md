@@ -9,4 +9,4 @@ This add-on was developed for Sunsynk Region 2 customers only. Supports multiple
 
 See for more information: https://github.com/martinville/solarsynkv2/blob/main/DOCS.md
 
-![](https://github.com/martinville/solarsynk/blob/main/solarsynkstarted.png)
+![](https://github.com/VatieKAKi/solarsynkv2/blob/main/solarsynkstarted.png)
