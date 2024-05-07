@@ -270,8 +270,8 @@ echo "pv2_current" $pv2_current
 echo "pv2_power" $pv2_power
 echo "pv2_voltage" $pv2_voltage
 echo "overall_state" $overall_state
-#echo "upsLoadPower" $upsLoadPower
-#echo "homeLoadPower" $homeLoadPower
+echo "upsLoadPower" $upsLoadPower
+echo "homeLoadPower" $homeLoadPower
 #Settings Sensors
 echo "prog1_time:" $prog1_time
 echo "prog2_time:" $prog2_time
