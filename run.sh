@@ -405,6 +405,7 @@ echo "Reading settings entity -> solarsynk_"$inverter_serial"_inverter_settings"
 echo "------------------------------------------------------------------------------"
 CheckEntity=$(curl -s -k -X GET -H "Authorization: Bearer $HA_LongLiveToken" -H "Content-Type: application/json"  $HTTP_Connect_Type://$Home_Assistant_IP:$Home_Assistant_PORT/api/states/input_text.solarsynk_"$inverter_serial"_inverter_settings | jq -r '.message')
 
+
 #if [ $CheckEntity == "Entity not found." ]
 then
 	echo "Entity does not exist! Manually create it for this inverter using the HA GUI in menu [Settings] -> [Devices & Services] -> [Helpers] tab -> [+ CREATE HELPER]. Choose [Text] and name it [solarsynk_"$inverter_serial"_inverter_settings]"
