@@ -1,3 +1,6 @@
+### 2024/06/07
+Giving Weird Errors
+
 ### 2024/04/01
 Version "2.1.14" - Corrected battery mappings.
 Battery 1 Status was incorrectly mapped defaulting to 0.
