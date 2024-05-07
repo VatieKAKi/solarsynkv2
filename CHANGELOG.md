@@ -1,5 +1,5 @@
 ### 2024/06/07
-Giving Weird Errors
+Giving Weird Errors, still trying to fix it
 
 ### 2024/04/01
 Version "2.1.14" - Corrected battery mappings.
